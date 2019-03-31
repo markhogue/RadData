@@ -1,7 +1,7 @@
 Package: RadData
 Type: Package
 Title: Nuclear Decay Data for Dosimetric Calculations - ICRP 107
-Version: 0.1.0
+Version: 1.0.0
 Author: Mark Hogue <mark.hogue.chp@gmail.com>
 Maintainer: Mark Hogue <mark.hogue.chp@gmail.com>
 Description: Nuclear Decay Data for Dosimetric Calculations from
