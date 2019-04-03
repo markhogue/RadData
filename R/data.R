@@ -8,10 +8,10 @@
 #' \code{half_life} Half-life of nuclide. Caution - units vary.
 #' \code{units} Half-life units: ls, microsecond; ms, millisecond; s, second; m, minute; d, day; y, year
 #' \code{decay_mode} A, alpha; B-, beta minus; B+, beta plus; EC, electron capture; IT, isomeric transition; SF, spontaneous fission
-#' \code{pointer_rad} Not functional. Originally, location of nuclide in the ICRP-07.RAD file
-#' \code{pointer_bet}  Not functional. Originally, location of nuclide in ICRP-07.BET file
-#' \code{pointer_ack}  Not functional. Originally, location of nuclide in ICRP-07.ACK file
-#' \code{pointer_nsf}  Not functional. Originally, location of nuclide in ICRP-07.NSF file
+#' \code{pointer_rad} Not functional. Originally, location of nuclide in the ICRP_07.RAD file
+#' \code{pointer_bet}  Not functional. Originally, location of nuclide in ICRP_07.BET file
+#' \code{pointer_ack}  Not functional. Originally, location of nuclide in ICRP_07.ACK file
+#' \code{pointer_nsf}  Not functional. Originally, location of nuclide in ICRP_07.NSF file
 #' \code{progeny_1}  Radioactive progeny number 1
 #' \code{pointer_1}  Location of progeny number 1 in RN dataset
 #' \code{branch_1}  Branching fraction to progeny number 1
@@ -37,7 +37,7 @@
 #' \code{air_kerma_coef} Point source air-kerma coefficient (Gy-m^2/Bq s)
 #' \code{decay_constant} Decay constant in inverse seconds.
 #' }
-"NDX"
+"ICRP_07.NDX"
 
 #' Radionuclide file
 #'
@@ -52,7 +52,7 @@
 #' \code{code_num}  Numeric code for radiation type. See rad_codes for description.
 #' \code{is_photon} Logical. Allows selection of all photons.
 #' }
-"RAD"
+"ICRP_07.RAD"
 
 #' Radiation code table
 #'
@@ -74,4 +74,4 @@
 #' \code{E_MeV}  Energy grid point (MeV)
 #' \code{A} Number of beta particles per MeV per nuclear transformation at this energy
 #' }
-"BET"
+"ICRP_07.BET"

@@ -5,10 +5,10 @@ RadData
 
 This package contains data from the International Commission on Radiological Protection (ICRP) Publication 107, Nuclear Decay Data for Dosimetric Calculations. The data sets were converted from the original to a tidy data set. The files include:
 
--   **NDX** The index file distributed from ICRP as ICRP-07.NDX. It has 32 variables, including 31 original variables from ICRP, plus the derived decay\_constant variable.
--   **RAD** The file distributed from ICRP as ICRP-07.rad. Data on the energy and yield of each radiation emitted in nuclear transformations of the radionuclide.
+-   **ICRP-07.NDX** The index file distributed from ICRP as ICRP-07.NDX. It has 32 variables, including 31 original variables from ICRP, plus the derived decay\_constant variable.
+-   **ICRP-07.RAD** The file distributed from ICRP as ICRP-07.rad. Data on the energy and yield of each radiation emitted in nuclear transformations of the radionuclide.
 -   **rad\_codes** A small table providing descriptions of the codes used in RAD.
--   **BET** The index file distributed from ICRP as ICRP-07.bet. Beta decay spectra for beta emitters.
+-   **ICRP-07.BET** The index file distributed from ICRP as ICRP-07.bet. Beta decay spectra for beta emitters.
 
 Installation
 ------------
