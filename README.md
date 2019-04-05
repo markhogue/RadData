@@ -5,10 +5,13 @@ RadData
 
 This package contains data from the International Commission on Radiological Protection (ICRP) Publication 107, Nuclear Decay Data for Dosimetric Calculations. The data sets were converted from the original to a tidy data set. The files include:
 
--   **ICRP-07.NDX** The index file distributed from ICRP as ICRP-07.NDX. It has 32 variables, including 31 original variables from ICRP, plus the derived decay\_constant variable.
--   **ICRP-07.RAD** The file distributed from ICRP as ICRP-07.rad. Data on the energy and yield of each radiation emitted in nuclear transformations of the radionuclide.
--   **rad\_codes** A small table providing descriptions of the codes used in RAD.
--   **ICRP-07.BET** The index file distributed from ICRP as ICRP-07.bet. Beta decay spectra for beta emitters.
+-   ICRP-07.NDX The index file has 32 variables, including 31 original variables from ICRP. The 32nd variable is a derived decay\_constant variable in inverse seconds, to allow activity computation without unit conversion issues.
+
+-   ICRP-07.RAD Data on the energy and yield of each radiation emitted in nuclear transformations of the radionuclide.
+
+-   rad\_codes A small table providing descriptions of the codes used in ICRP-07.RAD.
+
+-   ICRP-07.BET Beta decay spectra for beta emitters.
 
 Installation
 ------------
@@ -16,7 +19,7 @@ Installation
 You can install the released version of RadData from [CRAN](https://CRAN.R-project.org) (after it has been released) with:
 
 ``` r
-install.packages("radsafer")
+install.packages("RadData")
 ```
 
 The development version from GitHub:
@@ -35,10 +38,14 @@ To start using the installed package:
 library(RadData)
 ```
 
-License
--------
+Functions for selecting and filtering data for health physics computations will be included in the package `radsafer`.
 
-                  ICRP-07 Data Files Copyright Notice
+Source Data
+-----------
+
+Source data is from ICRP 107 copyright 2008 Eckerman and Endo. This data is provided with the following text in the license.txt file:
+
+ICRP-07 Data Files Copyright Notice
 
 Copyright (C) 2008 A. Endo and K.F. Eckerman, Authors. All Rights Reserved.
 

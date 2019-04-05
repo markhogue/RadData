@@ -3,3 +3,5 @@
 
 RadData (development version)
 =============================
+
+Look for added functions in the `radsafer` package for using the data.
