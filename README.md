@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-RadData
-=======
+RadData <img src='man/figures/RadData.png' align="right" height="139" />
+========================================================================
 
 This package contains data from the International Commission on Radiological Protection (ICRP) Publication 107, Nuclear Decay Data for Dosimetric Calculations. The data sets were converted from the original to a tidy data set. The files include:
 
