@@ -7,7 +7,7 @@ Description: Nuclear Decay Data for Dosimetric Calculations from the
     International Commission on Radiological Protection from ICRP 
     Publication 107. Ann. ICRP 38 (3). Eckerman, Keith and Endo, Akira 2008 
     <doi:10.1016/j.icrp.2008.10.004> 
-    <http://www.icrp.org/publication.asp?id=ICRP%20Publication%20107>. 
+    <https://www.icrp.org/publication.asp?id=ICRP%20Publication%20107>. 
     This is a database of the physical data needed in calculations of 
     radionuclide-specific protection and operational quantities. The 
     data is prescribed by the ICRP, the international authority on 
@@ -22,7 +22,7 @@ Copyright: Source data from ICRP 107 copyright 2008 Eckerman and Endo.
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Depends: R (>= 3.3.0)
 Suggests: radsafer
 URL: https://github.com/markhogue/RadData

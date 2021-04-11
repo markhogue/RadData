@@ -4,7 +4,8 @@
 \name{ICRP_07.NDX}
 \alias{ICRP_07.NDX}
 \title{Radionuclide Data Index}
-\format{A \code{tibble} with 32 variables, 31 original variables from ICRP, plus the derived decay_constant variable.
+\format{
+A \code{tibble} with 32 variables, 31 original variables from ICRP, plus the derived decay_constant variable.
 \describe{
 \code{RN} Name of nuclide; e.g. Am-241, Tc-99m
 \code{half_life} Half-life of nuclide. Caution - units vary.
@@ -25,7 +26,7 @@
 \code{branch_3}  Branching fraction to progeny number 3
 \code{progeny_4}  Radioactive progeny number 4
 \code{pointer_4}  Location of progeny number 4 in RN dataset
-\code{branch_}  Branching fraction to progeny number 4
+\code{branch_4}  Branching fraction to progeny number 4
 \code{E_alpha}  Energy of alpha emissions (MeV/nuclear transformation)
 \code{E_electron}  Energy of electrons, including beta (MeV/nuclear transformation)
 \code{E_photon}  Energy of photon emission (MeV/nuclear transformation)
@@ -38,7 +39,8 @@
 \code{air_kerma_rate_const}  Air-kerma rate constant (Gy-m^2/Bq s)
 \code{air_kerma_coef} Point source air-kerma coefficient (Gy-m^2/Bq s)
 \code{decay_constant} Decay constant in inverse seconds.
-}}
+}
+}
 \usage{
 ICRP_07.NDX
 }

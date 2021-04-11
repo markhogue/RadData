@@ -4,12 +4,14 @@
 \name{ICRP_07.BET}
 \alias{ICRP_07.BET}
 \title{Beta data}
-\format{A \code{tibble} with 3 variables.
+\format{
+A \code{tibble} with 3 variables.
 \describe{
 \code{RN}  Nuclide name, e.g. Tc-99m
 \code{E_MeV}  Energy grid point (MeV)
 \code{A} Number of beta particles per MeV per nuclear transformation at this energy
-}}
+}
+}
 \usage{
 ICRP_07.BET
 }

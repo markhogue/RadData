@@ -4,12 +4,14 @@
 \name{rad_codes}
 \alias{rad_codes}
 \title{Radiation code table}
-\format{A \code{tibble} with 3 variables.
+\format{
+A \code{tibble} with 3 variables.
 \describe{
 \code{code_num}  Numeric code for radiation type. See rad_codes for description.
 \code{code_AN}  Short alphanumeric code for radiation type. See rad_codes for description.
 \code{description}  Short textual description
-}}
+}
+}
 \usage{
 rad_codes
 }
