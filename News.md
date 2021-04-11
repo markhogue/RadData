@@ -1,7 +1,8 @@
 
 <!-- News.md is generated from News.Rmd. Please edit that file -->
 
-RadData (development version)
-=============================
+# RadData (version 1.0.1 )
 
-Look for added functions in the `radsafer` package for using the data.
+Added `LazyDataCompression: xz` to Description to help with file
+download size. Fixed the name of branch\_4 in “ICRP\_07.NDX”. It was
+previously without the number at the end (branch\_).

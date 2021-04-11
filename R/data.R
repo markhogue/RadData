@@ -23,7 +23,7 @@
 #' \code{branch_3}  Branching fraction to progeny number 3
 #' \code{progeny_4}  Radioactive progeny number 4
 #' \code{pointer_4}  Location of progeny number 4 in RN dataset
-#' \code{branch_}  Branching fraction to progeny number 4
+#' \code{branch_4}  Branching fraction to progeny number 4
 #' \code{E_alpha}  Energy of alpha emissions (MeV/nuclear transformation)
 #' \code{E_electron}  Energy of electrons, including beta (MeV/nuclear transformation)
 #' \code{E_photon}  Energy of photon emission (MeV/nuclear transformation)

@@ -1,5 +1,5 @@
 Package: RadData
-Version: 1.0.0
+Version: 1.0.1
 Type: Package
 Title: Nuclear Decay Data for Dosimetric Calculations - ICRP 107
 Authors@R: c(person("Mark", "Hogue", role = c("aut", "cre"), email = "mark.hogue.chp@gmail.com"), person("KF", "Eckerman", role = c("dtc", "cph")), person("A", "Endo", role = c("dtc", "cph"))) 
@@ -21,6 +21,7 @@ Copyright: Source data from ICRP 107 copyright 2008 Eckerman and Endo.
     See the file license.txt file for details.
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 RoxygenNote: 6.1.1
 Depends: R (>= 3.3.0)
 Suggests: radsafer
