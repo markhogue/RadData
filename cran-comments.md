@@ -4,5 +4,5 @@
 
 ## R CMD check results
 There were no ERRORs or WARNINGs .
-There was a NOTE on the md, Rmd and data-raw files found at top level.
+There was a NOTE on the md and Rmd files found at top level.
 
