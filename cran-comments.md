@@ -3,6 +3,5 @@
 * Fedora 29 (on R-hub builder), R 4.0.5
 
 ## R CMD check results
-There were no ERRORs or WARNINGs .
-There was a NOTE on the md and Rmd files found at top level.
+There were no errors, warnings or notes.
 

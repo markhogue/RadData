@@ -1,0 +1,17 @@
+---
+output: github_document
+
+---
+
+<!-- News.md is generated from News.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/News-",
+  out.width = "100%"
+)
+```
+# RadData (version 1.0.1 )
+Added `LazyDataCompression: xz` to Description to help with file download size. Fixed the name of branch_4 in "ICRP_07.NDX". It was previously without the number at the end (branch_).  
