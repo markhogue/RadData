@@ -1,6 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^CRAN-RELEASE$
-^cran-comments.md
-^README.Rmd
-^NEWS.Rmd
+^cran-comments.md$
+^README.Rmd$
+^NEWS.Rmd$
