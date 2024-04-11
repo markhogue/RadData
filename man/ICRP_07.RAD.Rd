@@ -7,11 +7,17 @@
 \format{
 A \code{tibble} with 6 variables.
 \describe{
+
 \code{RN}  Nuclide name, e.g. Tc-99m
+
 \code{code_AN}  Short alphanumeric code for radiation type. See rad_codes for description.
+ 
 \code{E_MeV}  Numeric. Energy of the radiation in MeV
+
 \code{prob}  Numeric. Yield of the radiation (/nuclear transformation)
+
 \code{code_num}  Numeric code for radiation type. See rad_codes for description.
+
 \code{is_photon} Logical. Allows selection of all photons.
 }
 }

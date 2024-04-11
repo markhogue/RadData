@@ -39,7 +39,7 @@ The development version from GitHub:
 devtools::install_github("markhogue/RadData")
 ```
 
-## Oveview
+## Overview
 To start using the installed package: 
 
 ```{r}

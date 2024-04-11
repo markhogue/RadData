@@ -13,5 +13,5 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# RadData (version 1.0.1 )
-Added `LazyDataCompression: xz` to Description to help with file download size. Fixed the name of branch_4 in "ICRP_07.NDX". It was previously without the number at the end (branch_).  
+# RadData (version 1.0.2 )
+Changed formats in data.R file to improve readability of help file.  

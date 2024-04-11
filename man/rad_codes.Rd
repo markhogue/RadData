@@ -7,9 +7,13 @@
 \format{
 A \code{tibble} with 3 variables.
 \describe{
-\code{code_num}  Numeric code for radiation type. See rad_codes for description.
-\code{code_AN}  Short alphanumeric code for radiation type. See rad_codes for description.
-\code{description}  Short textual description
+A table used for cross-linking  numerical, alphabetical and textual references for a radiation emission type, such as: 1, G, Gamma Rays.
+
+\code{code_num}  Numeric code for radiation type. 
+
+\code{code_AN}  Alphabetical abbreviation, some with + or -.
+
+\code{description} Description of radiation emission type.   
 }
 }
 \usage{

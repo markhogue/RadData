@@ -7,8 +7,11 @@
 \format{
 A \code{tibble} with 3 variables.
 \describe{
+
 \code{RN}  Nuclide name, e.g. Tc-99m
+
 \code{E_MeV}  Energy grid point (MeV)
+
 \code{A} Number of beta particles per MeV per nuclear transformation at this energy
 }
 }
